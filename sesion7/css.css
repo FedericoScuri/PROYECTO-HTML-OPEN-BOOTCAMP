@@ -1,0 +1,16 @@
+html{
+    background-color: rgb(159, 175, 175)
+}
+
+.input{
+    color: black;
+    border-radius: 2px 2px;
+    border: solid ;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+.input::placeholder{
+    color: brown;
+}
