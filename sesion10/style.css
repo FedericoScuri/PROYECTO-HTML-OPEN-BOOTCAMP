@@ -1,0 +1,27 @@
+.contenedor{
+    padding: 3px;
+    margin: 2px;
+    display: flex;
+    background-color: blueviolet;
+    height: 4rem;
+    width: 5rem;
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+
+
+}
+
+.principal{
+    background-color: brown;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px){
+    .contenedor{
+        flex-direction: column-reverse;
+    }
+}

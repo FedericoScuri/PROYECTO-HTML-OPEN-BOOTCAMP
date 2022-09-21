@@ -10,6 +10,7 @@ body{
     background-color: green;
     border: none;
     border-radius: 23px;
+    cursor: pointer;
 }
 
 .btn-modern:hover{
@@ -17,5 +18,5 @@ body{
     color: blue;
     background-color: grey;
     transform: translateY(-5px);
-    border-bottom: 3px solid rgb(92, 92, 92)
+    border-bottom: 3px solid rgb(0, 0, 0)
 }
